@@ -1,18 +1,21 @@
 downloads/**
-!downloads/Movies/.keep
-!downloads/TV/.keep
+!downloads/**/.keep
+# !downloads/TV/.keep
 
 jellyfin/configs/**
-!jellyfin/configs/.keep
+!jellyfin/**/.keep
 
 prowlarr/configs/**
-!prowlarr/configs/.keep
+!prowlarr/**/.keep
 
 qbittorrent/configs/**
-!qbittorrent/configs/.keep
+!qbittorrent/**/.keep
 
 radarr/configs/**
-!radarr/configs/.keep
+!radarr/**/.keep
 
 sonarr/configs/**
-!sonarr/configs/.keep
+!sonarr/**/.keep
+
+pihole/configs/*
+!pihole/configs/.keep
