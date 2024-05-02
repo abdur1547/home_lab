@@ -19,3 +19,8 @@ sonarr/configs/**
 
 pihole/configs/*
 !pihole/configs/.keep
+
+nginx/data/*
+!nginx/data/.keep
+nginx/letsencrypt/*
+!nginx/letsencrypt/.keep
