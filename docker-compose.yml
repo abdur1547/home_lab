@@ -74,6 +74,20 @@ services:
       - ./jellyfin/cache:/cache
       - ./downloads:/media
   
+  filebrowser:
+    image: filebrowser/filebrowser:s6
+    container_name: filebrowser
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./downloads:/srv
+      - ./filebrowser/filebrowser.db:/database/filebrowser.db
+      - ./filebrowser/settings.json:/config/settings.json
+    ports:
+      - 9090:80
+  
   # pihole:
   #   container_name: pihole
   #   image: pihole/pihole:latest
