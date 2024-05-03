@@ -84,7 +84,7 @@ services:
     volumes:
       - ./downloads:/srv
       - ./filebrowser/filebrowser.db:/database/filebrowser.db
-      - ./filebrowser/settings.json:/config/settings.json
+      - ./filebrowser/configs:/config
     ports:
       - 9090:80
   

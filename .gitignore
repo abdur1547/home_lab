@@ -24,3 +24,6 @@ nginx/data/*
 !nginx/data/.keep
 nginx/letsencrypt/*
 !nginx/letsencrypt/.keep
+
+filebrowser/configs/**
+!filebrowser/configs/.keep
