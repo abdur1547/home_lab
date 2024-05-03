@@ -27,3 +27,6 @@ nginx/letsencrypt/*
 
 filebrowser/configs/**
 !filebrowser/configs/.keep
+
+portainer/data/**
+!portainer/data/.keep
